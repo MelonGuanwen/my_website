@@ -1,4 +1,4 @@
-baseURL: http://example.org/
+baseURL: https://app.netlify.com/sites/gavencao/settings/general
 languageCode: en-us
 title: Portfolio website for Guanwen Cao
 theme: forty
