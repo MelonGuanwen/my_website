@@ -6,4 +6,4 @@ slug: blogs
 title: Things About Me
 ---
 
-Shanghai - Hong Kong - New York - Los Angeles
+Shanghai - Hong Kong - New York - Los Angeles - London
