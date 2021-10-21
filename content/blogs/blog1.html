@@ -1,0 +1,27 @@
+---
+categories:
+- ""
+- ""
+date: "2017-10-31T21:28:43-05:00"
+description: "Data Analysis"
+draft: false
+image: pic09.jpg
+keywords: ""
+slug: ipsum
+title: R Programming
+---
+
+<script src="/rmarkdown-libs/header-attrs/header-attrs.js"></script>
+
+
+<pre class="r"><code>drinks %&gt;% 
+  slice_max(order_by = beer_servings, n=25) %&gt;% #only keeps the top 25 beer consuming countries
+  ggplot(aes(x = beer_servings, y = fct_reorder(country, beer_servings))) + #creates a plot with specified axes 
+  geom_col() + #defines the plot as a bar chart
+  labs(
+    title = &quot;Top 25 Beer Consuming Countries&quot;,
+    x = &quot;Consumption&quot;,
+    y = NULL
+  )+
+  NULL</code></pre>
+<p><img src="/blogs/blog1_files/figure-html/unnamed-chunk-1-1.png" width="672" /></p>

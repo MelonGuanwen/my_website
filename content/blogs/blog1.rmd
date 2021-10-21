@@ -1,0 +1,47 @@
+---
+categories:
+- ""
+- ""
+date: "2017-10-31T21:28:43-05:00"
+description: "Data Analysis"
+draft: false
+image: pic09.jpg
+keywords: ""
+slug: ipsum
+title: R Programming
+---
+
+```{r load-libraries, warning=FALSE, message=FALSE, echo=FALSE}
+library(tidyverse)
+library(fivethirtyeight)
+data(drinks)
+```
+
+#### Projects I have done
+
+```{r load-libraries, warning=FALSE, message=FALSE, echo=FALSE}
+drinks %>% 
+  slice_max(order_by = beer_servings, n=25) %>% #only keeps the top 25 beer consuming countries
+  ggplot(aes(x = beer_servings, y = fct_reorder(country, beer_servings))) + #creates a plot with specified axes 
+  geom_col() + #defines the plot as a bar chart
+  labs(
+    title = "Top 25 Beer Consuming Countries",
+    x = "Consumption",
+    y = NULL
+  )+
+  NULL
+```
+
+```{r}
+drinks %>% 
+  slice_max(order_by = spirit_servings, n=25) %>% 
+  ggplot(aes(x = spirit_servings, y = fct_reorder(country, spirit_servings))) +
+  geom_col()+
+  labs(
+    title = "Top 25 Spirit Consuming Countries",
+    x = "Consumption",
+    y = NULL
+  )+
+  NULL
+```
+

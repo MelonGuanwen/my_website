@@ -8,8 +8,7 @@ params:
   banner:
     buttonText: Get Started
     subtitle: |-
-      A RESPONSIVE SITE TEMPLATE DESIGNED BY HTML5 UP
-      AND RELEASED UNDER THE CREATIVE COMMONS.
+      Shanghai - Hong Kong - New York - Los Angeles
     title: Hi, my name is Guanwen Cao
   blog: {}
   contact: 
@@ -61,7 +60,7 @@ params:
   name: Your name
   navigation:
     button1:
-      - name: Get Started
+      - name: Things About Me
         url: blogs
     button2:
       - name: Log In
@@ -69,12 +68,12 @@ params:
     links:
       - name: Home
         url: '#'
-      - name: Internships
+      - name: Business Experiences
         url: blogs
       - name: Interests
-        url: blogs/ipsum
+        url: blogs/magna
       - name: R Programming
-        url: elements.html
+        url: blogs/ipsum
     menu: Menu
     subtitle: By HTML5 Up
     title: Forty
@@ -82,37 +81,25 @@ params:
     enable: yes
     showcase:
       - image: pic01.jpg
-        subtitle: Ipsum Dolor Sit Amet
-        title: Aliquam
+        subtitle: Business Experiences
+        title: PwC
         url: blogs/aliquam
       - image: pic02.jpg
-        subtitle: Feugiat Amet Tempus
-        title: Tempus
+        subtitle: Business Experiences
+        title: CICC Capital
         url: blogs/tempus
       - image: pic03.jpg
-        subtitle: Lorem Etiam Nullam
-        title: Magna
+        subtitle: Interests
+        title: Movie
         url: blogs/magna
       - image: pic04.jpg
-        subtitle: Nisl Sed Aliquam
-        title: Ipsum
+        subtitle: R Programming
+        title: Data Analysis
         url: blogs/ipsum
-      - image: pic05.jpg
-        subtitle: Ipsum Dolor Sit Amet
-        title: Consequat
-        url: blogs/ipsum
-      - image: pic06.jpg
-        subtitle: Feugiat Amet Tempus
-        title: Etiam
-        url: blogs/ipsum
+
   two:
-    buttonText: Get Started
+    buttonText: More abpout me
     enable: yes
-    subtitle: "Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero.
-      \n    Mauris aliquet magna magna sed nunc rhoncus pharetra. \n    Pellentesque
-      condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia
-      pellentesque lorem ipsum dolor. \n    Nullam et orci eu lorem consequat tincidunt.
-      Vivamus et sagittis libero.\n    Mauris aliquet magna magna sed nunc rhoncus
-      amet pharetra et feugiat tempus."
-    title: Massa libero
+    subtitle: "Hi, my name is Guanwen Cao. I have lived in five different cities which include Shanghai, Hong Kong, New York City, Los Angeles and London. I have got a multicultural exposures so I am looking forward to make friends who are from different culture background. "
+    title: About Me
     url: blogs
