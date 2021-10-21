@@ -69,11 +69,11 @@ params:
     links:
       - name: Home
         url: '#'
-      - name: Blogs
+      - name: Internships
         url: blogs
-      - name: Generic Blog
+      - name: Interests
         url: blogs/ipsum
-      - name: Elements
+      - name: R Programming
         url: elements.html
     menu: Menu
     subtitle: By HTML5 Up
